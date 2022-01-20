@@ -1,6 +1,7 @@
 package com.bajaj.helloworld;
 import java.util.*;
 class Employee{
+	//git test 
 	private static String ename;
 	private static int id;
 	static Scanner sc=new Scanner(System.in);
@@ -31,7 +32,7 @@ class Employee{
 	}
 	public static int getName(String name,Employee[] employee) {
 		for(int i=0;i<employee.length;i++) {
-			if(name==employee[i].ename) {
+			if(name.eqemployee[i].ename) {
 				return i;
 			}
 		}
